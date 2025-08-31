@@ -1,1 +1,1 @@
-print
+print("Welcome to my future!")
