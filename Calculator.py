@@ -23,8 +23,8 @@ def calculator():
         elif operator == "**":
             ans = (num1 ** num2)
             print(ans)
-        simplify = input("Do you want to round the calculation? (y/n): ")
-        if simplify == "y":
+        rounded = input("Do you want to round the calculation? (y/n): ")
+        if rounded == "y":
             print(int(ans))
         prompt = input("Would you like to continue? (y/n): ")
         if prompt == "y":
