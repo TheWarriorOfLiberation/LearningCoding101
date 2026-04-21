@@ -26,8 +26,11 @@ def calculator():
         simplify = input("Do you want to round the calculation? (y/n): ")
         if simplify == "y":
             print(int(ans))
+        prompt = input("Would you like to continue? (y/n): ")
+        if prompt == "y":
+            continue
         else:
             break
 
-
+            
 calculator()
